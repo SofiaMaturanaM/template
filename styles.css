@@ -1,0 +1,31 @@
+/* {box-shadow: inset 0 0 1px 0 rgba(0,0,0,.3); background-color: rgba(0,0,0,.03);}
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap');
+* {
+ -webkit-font-smoothing: antialiased;
+ -moz-osx-font-smoothing: grayscale;
+}
+
+/* Helpers and Fixes */
+body{ font-family: 'Montserrat', sans-serif; }
+h1, h2, h3, h4, h5, h6, p, ul{ margin: 0;}
+ul{ line-height: 1;}
+select{ -webkit-appearance: button; -webkit-border-radius: 0px; -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.1); -webkit-padding-end: 20px; -webkit-padding-start: 2px; -webkit-user-select: none; -moz-appearance: none;
+	background-color: #ffffff; background-image: url('../img/select.png'); background-position: right center; background-repeat: no-repeat; background-size: 16px 8px; font-size: inherit; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+
+a:hover, a:focus, button:hover, button:focus{ text-decoration: none; outline: 0;}
+img{ max-width: 100%; }
+select{ border: none; }
+.row{ margin-bottom: 0; }
+.reset{ clear: both;}
+.mobile{ display: none;}
+.button{ text-transform: uppercase; color: #fff; text-align: center; font-weight: 700; border: none; display: inline-block; padding: 10px 50px; }
+.transition{ -ms-transition: .5s;-moz-transition: .5s;-webkit-transition: .5s;-o-transition: .5s;transition: .5s;}
+.table{ display: table; }
+.tr{ display: table-row; }
+.td{ display: table-cell; }
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12{ min-height: 0; }
+
+@media only screen and (min-width:1260px){
+.container { width: 1250px;}
+}
